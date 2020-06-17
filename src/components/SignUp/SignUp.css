@@ -1,0 +1,71 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 6px;
+  width: 200px;
+}
+
+.main-form {
+  background-color: #fff;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: center;
+  background-color: #637a91;
+  padding: 16px;
+}
+
+.form-title {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.form-container {
+  padding: 10px 20px 20px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #5f5e5e;
+}
+
+.text-field {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  color: #7f909d;
+}
+
+.trail-button {
+  background-color: #5fcf80;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  margin: 20px 10px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.terms {
+  margin: 10px 10px 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #827f7f;
+}
+
+.terms-conditions {
+  color: #168bb7;
+  text-decoration: none;
+}
